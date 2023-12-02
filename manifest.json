@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "TabName",
+    "version": "1.0",
+  
+    "description": "Addon description",
+    "icons": {
+      "48": "icons/nameyotab-48.png"
+    },
+  
+    "permissions": ["activeTab"],
+  
+    "browser_action": {
+      "default_icon": "icons/nameyotab-32.png",
+      "default_title": "TabName",
+      "default_popup": "popup.html"
+    }
+  
+  }
+  
